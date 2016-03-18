@@ -1,6 +1,6 @@
 {
   "name": "jsx-to-shaco",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Babel plugin to precompile JSX to Shaco.createElement",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,6 @@
     "url": "https://github.com/highercomve/jsx-to-shaco/issues"
   },
   "homepage": "https://github.com/highercomve/jsx-to-shaco#readme",
-  "dependencies": {
-    "babel-plugin-transform-jsx": "^1.2.1",
-    "shadow-component": "^0.1.6"
-  },
   "devDependencies": {
     "babel-core": "^5.5.5",
     "babel-plugin-transform-jsx": "^1.2.1",
