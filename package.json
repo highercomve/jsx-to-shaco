@@ -1,6 +1,6 @@
 {
   "name": "jsx-to-shaco",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Babel plugin to precompile JSX to Shaco.createElement",
   "main": "index.js",
   "scripts": {
