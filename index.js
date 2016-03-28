@@ -6,7 +6,7 @@ module.exports = function jsxToShaco(jsxObject) {
   var key = jsxObject.attributes.key
   var state = jsxObject.attributes.state
   var options = Object.assign({}, jsxObject.attributes, {key: undefined, state: undefined})
-  var children = (jsxObject.children || []).filter((child) => {
+  var children = (jsxObject.children || []).filter(function (child) {
     return child !== '' && child !== ' '
   })
   return function () {
